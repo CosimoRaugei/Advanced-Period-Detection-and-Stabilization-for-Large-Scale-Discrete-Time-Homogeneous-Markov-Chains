@@ -1,6 +1,6 @@
 # Thesis Algorithms in C++, MATLAB, and Python
 
-This repository contains the source code for two algorithms implemented in C++, MATLAB, and Python. These algorithms are part of my thesis on period stabilization.
+This repository contains the source code for two algorithms implemented in C++, MATLAB, and Python. These algorithms are part of the Bsc thesis of Cosimo Raugei and Leonardo Torti on %%%%still to do%%%%%.
 
 ## Algorithms:
 1. **n Algorithm Period Stabilization**
