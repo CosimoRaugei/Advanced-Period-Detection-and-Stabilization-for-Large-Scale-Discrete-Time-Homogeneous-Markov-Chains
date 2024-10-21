@@ -4,8 +4,8 @@ function [d,H_i] = PeriodFinder_n(P,i)
 % output: d = period of d(i) 
 %         H_i = set of states communicating with i 
 n = size(P,1);
-if (i > n)
-    error('indice i non valido')
+if (i > n | i < 1)
+    error('invalid index i')
 end
 
 % finds powers of P up to n, P,P^2,...,P^n
