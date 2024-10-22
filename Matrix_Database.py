@@ -1,10 +1,25 @@
-import json
-
-# Load matrices from JSON file
-def load_matrices(file_path):
-    with open(file_path, 'r') as file:
-        data = json.load(file)
-    return data
+# Dictionary of matrices
+matrices_data = {
+    "matrices": [
+        {
+            "id": "matrix_1",
+            "description": "Transition matrix for Markov chain example A.",
+            "matrix": [
+                [0.5, 0.5],
+                [0.2, 0.8]
+            ]
+        },
+        {
+            "id": "matrix_2",
+            "description": "Stochastic matrix for random walk on a graph.",
+            "matrix": [
+                [0.4, 0.6, 0.0],
+                [0.3, 0.5, 0.2],
+                [0.0, 0.7, 0.3]
+            ]
+        }
+    ]
+}
 
 # Display available matrices with IDs and descriptions
 def display_matrix_descriptions(data):
@@ -23,8 +38,8 @@ def get_matrix_by_id(data, matrix_id):
 
 # Main function to interact with the user
 def main():
-    file_path = 'matrices_database.json'  # Change this to your actual JSON file path
-    data = load_matrices(file_path)
+    # Use the predefined dictionary instead of loading from a file
+    data = matrices_data
     
     # Display all available matrices
     display_matrix_descriptions(data)
