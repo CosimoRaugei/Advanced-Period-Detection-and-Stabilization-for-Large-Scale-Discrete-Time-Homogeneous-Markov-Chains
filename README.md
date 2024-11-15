@@ -1,6 +1,6 @@
 # Advanced Period Detection and Stabilization for Large-Scale Discrete-Time Homogeneous Markov Chains
 
-This repository supports the ongoing undergraduate research project by Cosimo Raugei and Leonardo Torti, titled **"Advanced Period Detection and Stabilization for Large-Scale Discrete-Time Homogeneous Markov Chains."**
+This is an introduction to the ongoing undergraduate research project by Cosimo Raugei and Leonardo Torti, titled **"Advanced Period Detection and Stabilization for Large-Scale Discrete-Time Homogeneous Markov Chains."**
 
 ## Introduction
 
