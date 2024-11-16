@@ -10,7 +10,7 @@ This project directly addresses this theorical and computational problem for lar
 
 ## Techniques Used
 
-The techniques and mathematics applied in this work draw from advanced areas of spectral analysis, graph theory, and number theory. 
+The techniques and mathematics applied in this work come from advanced areas of computational spectral analysis, graph theory and  number theory. 
 
 ## Matrix Dataset
 
