@@ -1,6 +1,6 @@
 # Algorithms in C++, MATLAB, and Python
 
-This repository contains the source code for the two key algorithms implemented in C++, MATLAB, and Python.
+This repository contains the source code for the two key algorithms implemented in C++, MATLAB, and Python. Code has been documented with ChatGPT to make it more readable
 
 ### 1. n Algorithm Period Stabilization
 - [`n_algorithm_period_stabilization.cc`](https://github.com/CosimoRaugei/BscThesis-Algorithms-Raugei-Torti/blob/main/BscThesis_MC%20copy/n_algorithm/n_algorithm_period_stabilization.cc)
